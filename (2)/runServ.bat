@@ -1,1 +1,0 @@
-java --class-path ".\JavaFX" Server
