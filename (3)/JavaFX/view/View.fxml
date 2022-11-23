@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <TextArea disable = "true" fx:id="label" layoutX="62.0" layoutY="78.0" prefHeight="79.0" prefWidth="400.0" text="37">
+         <font>
+            <Font size="33.0" />
+         </font></TextArea>
+      <Button fx:id="btn1" layoutX="130.0" layoutY="200.0" mnemonicParsing="false" onAction="#click1" text="1" />
+      <Button fx:id="btn2" layoutX="189.0" layoutY="200.0" mnemonicParsing="false" onAction="#click2" text="2" />
+      <Button fx:id="btn3" layoutX="250.0" layoutY="200.0" mnemonicParsing="false" onAction="#click3" text="3" />
+      <Button fx:id="btn4" layoutX="316.0" layoutY="200.0" mnemonicParsing="false" onAction="#click4" text="4" />
+      <Button fx:id="btn5" layoutX="377.0" layoutY="200.0" mnemonicParsing="false" onAction="#click5" text="5" />
+   </children>
+</AnchorPane>
